@@ -1,6 +1,6 @@
 {
-  "name": "react-native-sqlite-2",
-  "version": "3.6.2",
+  "name": "react-native-sqlite-3",
+  "version": "1.0.0",
   "description": "SQLite3 Native Plugin for React Native for iOS, Android, Windows and macOS",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -39,13 +39,13 @@
     "pouchdb",
     "sqlite"
   ],
-  "repository": "https://github.com/craftzdog/react-native-sqlite-2",
-  "author": "Takuya Matsuyama <hi@craftz.dog> (https://github.com/craftzdog)",
+  "repository": "https://github.com/rajeshrasch/react-native-sqlite-3.git",
+  "author": "Rajesh Surapaneni, (https://github.com/rajeshrasch)",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/craftzdog/react-native-sqlite-2/issues"
+    "url": "https://github.com/rajeshrasch/react-native-sqlite-3/issues"
   },
-  "homepage": "https://github.com/craftzdog/react-native-sqlite-2#readme",
+  "homepage": "https://github.com/rajeshrasch/react-native-sqlite-3#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
