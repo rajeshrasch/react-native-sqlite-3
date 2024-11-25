@@ -3,6 +3,7 @@ buildscript {
     repositories {
       google()
       mavenCentral()
+      gradlePluginPortal() 
     }
 
     dependencies {
@@ -12,6 +13,7 @@ buildscript {
 }
 
 apply plugin: 'com.android.library'
+apply plugin: "com.facebook.react"
 
 def getExtOrDefault(name) {
   return rootProject.ext.has(name) ? rootProject.ext.get(name) : project.properties['SQLite2_' + name]
@@ -59,7 +61,7 @@ repositories {
 
 dependencies {
   //noinspection GradleDynamicVersion
-  implementation "com.facebook.react:react-native:+"  // From node_modules
+  // implementation "com.facebook.react:react-native:+"  // From node_modules
   api 'androidx.sqlite:sqlite:2.5.0-alpha11'
   implementation 'com.github.rajeshrasch:sqlite-3:3.47.0'
 }
